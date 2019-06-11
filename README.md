@@ -3,8 +3,11 @@
 Links:
 
 start here: https://github.com/ContainerSolutions/k8s-deployment-strategies
+
 Canary Native:https://github.com/ContainerSolutions/k8s-deployment-strategies/tree/master/canary/native
+
 or start here for bigger headache: https://github.com/runyontr/k8s-canary
+
 Istio with GCP: https://github.com/GoogleCloudPlatform/istio-samples/tree/master/istio-canary-gke#setup      
 
 
