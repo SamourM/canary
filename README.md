@@ -20,3 +20,9 @@ sudo helm init --upgrade
 sudo helm install    --namespace=monitoring   --name=grafana    --version=1.12.0   --set=adminUser=admin   --set=adminPassword=admin    --set=service.type=NodePort 	    stable/grafana
 
 kubectl get secret --namespace monitoring grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+
+all the theory stuff.
+
+https://medium.com/containers-101/fully-automated-canary-deployments-in-kubernetes-70a671105273 
+
+
